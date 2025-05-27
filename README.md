@@ -38,10 +38,11 @@ A sequential CNN model is defined with:
 - A new CNN model is trained on the resampled data.
 - Same architecture as Model 1.
 
-### Evaluation includes:
-Accuracy on train, validation, and test sets
-Confusion matrix and classification report
-Visualization of predictions on test images
+### Evaluation Metrics:
+- Accuracy
+- Confusion matrix
+- Classification report
+- Visualization of test images with actual and predicted label
 
 ### 5. Results
 Resampling dataset did not improve classification accuracy for small classes.
